@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script type="module" src="./assets/js/slider.js" defer></script> -->
+    <script type="module" src="./assets/js/perlin.js" defer></script>
+    <style>
+        #grid-size-slider-input {
+            vertical-align: top;
+            display: none;
+        }
+        #grid-size-textbox {
+            display: none;
+        }
+        #grid-size-slider * {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id = "grid-size-slider">
+        <label>Grid size</label>
+        <input type="range" id="grid-size-slider-input" name="grid-size-slider-input" min="10" max="400" value="40" step="10" />
+        <div id="grid-size-textbox">40</div>
+    </div>
+</body>
+</html>
