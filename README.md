@@ -5,4 +5,4 @@
 
 
 ## Perlin Noise in 1D
-![perlin-2d](images/screenshot.png)
+![perlin-2d](perlin-noise-in-1d/assets/img.png)
